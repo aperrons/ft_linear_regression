@@ -4,7 +4,7 @@ from sklearn.metrics import r2_score
 
 def main():
     # Carica i dati da un file (per esempio 'data.csv')
-    data = np.loadtxt('data.csv', delimiter=',', skiprows=1)  # Salta la prima riga con i titoli
+    data = np.loadtxt('../data.csv', delimiter=',', skiprows=1)  # Salta la prima riga con i titoli
     mileage = data[:, 0]
     price = data[:, 1]
 
